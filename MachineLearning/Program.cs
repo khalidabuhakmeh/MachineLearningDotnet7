@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using Microsoft.ML;
+﻿using Microsoft.ML;
 using Microsoft.ML.Data;
 using Spectre.Console;
 using Console = Spectre.Console.AnsiConsole;
@@ -63,7 +61,6 @@ while (true)
 
     Console.MarkupLine($"{style.emoji} [{style.color}]\"{text}\" ({result.Probability:P00})[/] ");
 }
-
 
 class SentimentData
 {
